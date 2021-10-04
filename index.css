@@ -113,7 +113,7 @@ p{
 }
 
 .footer-content{
-    background-image: url("../starter-code/utils/assets/images/image-footer.jpg");
+    background-image: url("./starter-code/utils/assets/images/image-footer.jpg");
     background-color: rgb(77, 150, 168);
     background-blend-mode: soft-light;
     background-repeat: no-repeat;
