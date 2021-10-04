@@ -1,0 +1,316 @@
+body{
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 22px;
+}
+.main-container{
+    justify-content: center;
+    /*width: 100%;*/
+}
+
+.logo{
+    text-align: center;
+    margin-top: 70px;
+}
+
+.header-container{
+    display: flex;
+}
+
+.second-header{
+    text-align: center;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+h1{
+    font-size: 64px;
+    color: rgb(25, 27, 29);
+    padding: 20px 10px 10px 10px;
+}
+
+p{
+    color: Gray;
+}
+.download{
+    background-color: rgb(77, 150, 168);
+    font-size: 12px;
+    border-radius: 20px;
+    padding: 10px 15px;
+    width: 85x;
+    border: 2px rgb(77, 150, 168);
+    color: white;
+}
+.download:hover{
+    background-color: rgb(142, 227, 249);
+}
+
+.btn{
+    background-color:rgb(133, 95, 177);
+    font-size: 12px;
+    border-radius: 20px;
+    padding: 10px 15px;
+    width: 85x;
+    border: 2px rgb(133, 95, 177);
+    color: white;
+}
+.btn:hover{
+    background-color: rgb(217, 184, 255);
+}
+.vertical-line{
+    border-left: 6px solid rgb(224, 8, 8);
+    height: 200px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 0;
+}
+.carrosel{
+    display: flex;
+    justify-content: center;
+}
+
+.set-width {
+    width: 20%;
+    padding:30px 0 25px 20px;
+  }
+.carrosel1{
+    margin: 20px 5px;
+}
+
+.carrosel2{
+    margin: 20px 5px;
+}
+
+.carrosel3{
+    margin: 20px 5px;
+}
+
+.carrosel4{
+    margin: 20px 5px;
+}
+
+.carrosel img{
+    width: 250px;
+    height: 250px;
+    border-radius: 5px;
+}
+.smart-container{
+    width: 100%;
+    justify-content: center;
+}
+.smart-content{
+    text-align: center;
+    width: 30%;
+    margin: 0 35%;
+}
+.smart-content h3{
+    color: rgb(86, 155, 201);
+    text-transform: uppercase;
+}
+
+.smart-content h2{
+    font-size: 40px;
+    color: rgb(25, 27, 29);
+}
+
+.footer-content{
+    background-image: url("../utils/assets/images/image-footer.jpg");
+    background-color: rgb(77, 150, 168);
+    background-blend-mode: soft-light;
+    background-repeat: no-repeat;
+    display: flex;
+    height: 250px;
+    margin-top: 20px;    
+    margin-bottom: 20px;
+}
+
+.footer-content.footer1{
+    padding: 10px 15px;
+    text-align: center;
+}
+
+.footer-width {
+    width: 33.333%;
+    padding:90px 20px 25px 20px;
+    justify-content: center;
+  }
+
+  .footer1 h2{
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    padding: 0 30px;
+    margin-left: 50px;
+}
+
+.footer2 p{
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    padding: 0 30px;
+}
+
+.footer3{
+    justify-content: center;
+}
+
+.btn-download {
+    background-color:rgb(132, 39, 155);
+    font-size: 12px;
+    border-radius: 20px;
+    padding: 10px 15px;
+    margin-left: 200px;
+    width: 112px;
+    border: 2px rgb(132, 39, 155);
+    color: white;
+}
+.btn-download:hover{
+    background-color:rgb(217, 184, 255);
+}
+
+ /* Extra small devices (phones, 600px and down) */
+ @media only screen and (max-width: 600px) {
+    .header-container{
+        display: block;
+    }
+    .set-align{
+        text-align: center;
+        margin: 50px 0px;
+    }
+    .second-header{
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    h1{
+        font-size: 50px;
+        color: rgb(25, 27, 29);
+        padding: 20px 10px 10px 10px;
+    }
+    
+    p{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: Gray;
+        padding: 0 20px;
+    }
+    
+    .btn{
+        background-color:rgb(132, 39, 155);
+        font-size: 12px;
+        border-radius: 20px;
+        padding: 10px 15px;
+        width: 85x;
+        border: 2px rgb(132, 39, 155);
+        color: white;
+    }
+    .carrosel{
+        display: block;
+        justify-content: center;
+        width: 100%;
+    }
+    
+    .set-width {
+        text-align: center;
+        width: auto;
+        padding:20px 0;
+      }
+    .carrosel1{
+        margin: 20px 5px;
+        width: auto;
+    }
+    
+    .carrosel2{
+        margin: 20px 5px;
+    }
+    
+    .carrosel3{
+        margin: 20px 5px;
+    }
+    
+    .carrosel4{
+        margin: 20px 5px;
+    }
+    
+    .carrosel img{
+        width: auto;
+        height: auto;
+        border-radius: 5px;
+    }
+    .smart-container{
+        width: 100%;
+        justify-content: center;
+    }
+    .smart-content{
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        width: auto;
+        margin: 0 20px;
+    }
+    .smart-content h3{
+        font-family: 'Montserrat', sans-serif;
+        color: rgb(86, 155, 201);
+        text-transform: uppercase;
+    }
+    
+    .smart-content h2{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 35px;
+        color: rgb(25, 27, 29);
+    }
+    
+    .footer-content{
+        background-image: url("../utils/assets/images/image-footer.jpg"); 
+        display: block;
+        height: auto;
+        margin-top: 30px;    
+        margin-bottom: 20px;
+    }
+    
+    .footer-content.footer1{
+        padding: 10px 15px;
+        text-align: center;
+    }
+    
+    .footer-width {
+        width: auto;
+        padding:90px 20px 25px 20px;
+        justify-content: center;
+      }
+    
+      .footer1 h2{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        color: rgb(255, 255, 255);
+        padding: 0 30px;
+        margin-left: 50px;
+    }
+    
+    .footer2 p{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        padding: 120px 30px;
+    }
+    
+    .footer3{
+        justify-content: center;
+    }
+    .btn{
+        background-color:rgb(132, 39, 155);
+        font-size: 12px;
+        border-radius: 20px;
+        padding: 10px 15px;
+        margin-top: 25px;
+        width: 112px;
+        border: 2px rgb(132, 39, 155);
+        color: white;
+    }
+    .btn-download {
+        background-color:rgb(132, 39, 155);
+        font-size: 12px;
+        border-radius: 20px;
+        padding: 10px 15px;
+        margin-left: 200px;
+        width: 112px;
+        border: 2px rgb(132, 39, 155);
+        color: white;
+    }
+ }
